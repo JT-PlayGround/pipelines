@@ -17,11 +17,3 @@ node {
         echo 'Done'
     }
 }
-
-node('test') {
-   echo 'Helo Test...'
-   
-   stage('First test stage') {
-      echo 'Test Stage 1'
-   }
-}
