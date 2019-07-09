@@ -1,5 +1,7 @@
 # Messing with GKE & jenkins pipelines
 
-[*] Setup Jenkins on GKE cluster
-[*] Acess simple remote jenkins file & other repo for sources
-[] Break doen next steps before my free GCP $s run out...
+## Task List
+- [x] Setup Jenkins on GKE cluster
+- [x] Access simple remote jenkins file & other repo for sources
+- [ ] Outline my initial goals
+- [ ] Break down next steps before my free GCP $s run out...
