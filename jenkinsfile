@@ -18,7 +18,6 @@ node {
          echo 'Invoking notMyPipeline'
          
          build job: 'notMyPipeline', propagate: true, wait: true
-         ]
       }
    }
    
