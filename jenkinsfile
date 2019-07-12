@@ -14,11 +14,7 @@ node {
     }
 
    stage('new pipeline') {
-      steps {
-         echo 'Invoking notMyPipeline'
-         
-         build job: 'notMyPipeline', propagate: true, wait: true
-      }
+      build job: 'notMyPipeline', propagate: true, wait: true
    }
    
     stage('Publish build info') {
